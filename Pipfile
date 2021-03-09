@@ -8,6 +8,10 @@ tqdm = "*"
 numpy = "*"
 matplotlib = "*"
 black = "*"
+tensorflow = "*"
+pandas = "*"
+seaborn = "*"
+pdbpp = "*"
 
 [dev-packages]
 
