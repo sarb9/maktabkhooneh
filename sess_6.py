@@ -35,7 +35,7 @@ if __name__ == "__main__":
         label=labels,
         input_width=10,
         label_width=1,
-        shift=2,
+        shift=1,
         train_portion=0.8,
         validation_portion=0.1,
         test_portion=0.1,

@@ -19,9 +19,6 @@ class TrainableDataset:
 
         self.features = features
         self.labels = label
-        import pdb
-
-        pdb.set_trace()
         self.dataset = np.hstack((self.labels[:, np.newaxis], self.features))
 
         self.input_width = input_width
@@ -115,6 +112,7 @@ class TrainableDataset:
 
         plt.xlabel("Time [h]")
         mpl.rcParams["axes.grid"] = False
+        plt.show()
 
     def split_window(self, features):
         inputs = features[:, self.input_slice, :]
